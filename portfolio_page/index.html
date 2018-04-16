@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pytlenko's portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	
+<body>
+<!-- Початок шапки -->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+
+			<div class="navbar-header">	
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Taras Pytlenko</a>
+			</div>  <!-- end of "navbar-header" -->
+
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#about">About me</a></li>
+					<li><a href="#myProjects">My projects</a></li>
+					<li><a href="#contacts">Contacts</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</div> <!-- Кінець шапки -->
+
+	<div id="headerwrap">
+		<div class="container"></div>
+			<div class="row centered">
+				<div class="col-lg-8 col-lg-offset-2">
+					<h1>Taras Pytlenko</h1>
+					<h2>Web-developer</h2>
+				</div>
+			</div>
+	</div>
+
+	<div id="about">
+		<div class="row centered">
+			<div class="container">
+
+				<h2>About me</h2>
+				<br>
+
+				<div class="col-lg-6">
+					<h3><i>Education</i></h3>
+					<div class="text-justify">
+<p><b>Lviv Polytechnic National University, Lviv, MA</b></p>
+<p>MA in Computer Science</p>
+<p>Graduated in december of 2017</p>
+<p><b>"InternetDevels" IT-company, Lviv</b></p>
+<p>In 2017, I took a course "Drupal 8 Site Building"</p>
+
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+					<h3><i>Skills</i></h3>
+					<div class="text-justify">
+<p><b>Languages and libraries:  </b>CSS/HTML, Java script, jQuery, SQL, Bootstrap.</p>
+<p><b>IDE:  </b>Visual Studio Code, IntelliJ IDEA, Sublime text, Notepad++.</p>
+<p><b>Languages: </b>English: intermediate (B1-B2), Russian: advanced, Ukrainian: native.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- кінець блоку про мене -->
+
+	<div id="myProjects">		
+		<div class="container">
+			<div class="row centered">
+				<h2>My projects</h2>
+				<br>
+
+				<div class="col-lg-4">
+					<a><img class="img-rounded" src="img/angular.png" alt="image" title="image"/></a>
+					<h4>The simple AngularJS app</h4>
+					<p class="text-justify projectDescription ">
+						This program is used to create a shopping list. The user can add new products to the list, and remove the ones that are no longer needed. These two situation have been worked out - when the user entered the name of the product that is already on the list; the user did not enter anything and pressed the "Add".
+					</p>
+					<button class="btn btn-primary btn-lg" href="#" title="View the program">View</button>
+				</div>
+
+				<div class="col-lg-4">
+					<a><img class="img-rounded" src="img/landingPage.png" alt="image" title="image"/></a>
+					<h4>The landing page</h4>
+					<p class="text-justify projectDescription">
+					This web-site is a landing page. In online marketing, a landing page, sometimes known as a "lead capture page" or a "lander", or a "destination page", is a single web page that appears in response to clicking on a search engine optimized search result or an online advertisement.
+					</p>
+					<button class="btn btn-primary btn-lg" href="#" title="View the program">View</button>
+				</div>	
+
+				<div class="col-lg-4">
+					<a><img class="img-rounded" src="img/businessCard.jpg" alt="image" title="image"/></a>
+					<h4>The business card site</h4>
+					<p class="text-justify projectDescription">
+						Business cards are cards bearing business information about a company or individual.  A business card typically includes the giver's name, company or business affiliation and contact information such as street addresses, telephone number, fax number, e-mail addresses and website.
+					</p>
+					<button class="btn btn-primary btn-lg" href="#" title="View the program">View</button>
+				</div>	
+			</div>
+		</div>		
+	</div> <!-- кінець блоку мої проекти -->
+
+
+	<div id="contacts">		
+		<div class="container">
+			<div class="row">
+				<center><h2>Contact me</h2></center>
+				<br>
+				<div id="form1" class="col-lg-8">
+					<form>
+
+						<div class="form-group">
+							<label for="subject" class="control-label col-md-3">Subject:</label>
+							<div class="col-md-9">
+								<input type="text" class="form-control" id="subject" placeholder="Input your subject">
+							</div>
+						</div><br><br>
+
+						<div class="form-group">
+							<label for="email" class="control-label col-md-3">Email:</label>
+							<div class="col-md-9">
+								<input type="email" class="form-control" id="email" placeholder="Input your email">
+							</div>
+						</div><br><br>
+
+						<div class="form-group">
+							<label for="name" class="control-label col-md-3">Name:</label>
+							<div class="col-md-9">
+								<input type="email" class="form-control" id="name" placeholder="Input your name">
+							</div>
+						</div><br><br>
+
+						<div class="form-group">
+							<label for="message" class="control-label col-md-3">Your message:</label>
+							<div class="col-md-9">
+								<textarea name="message" id="message" placeholder="Enter your message"></textarea>	
+							</div>
+						</div><br><br>													
+	
+						<input class="btn-primary btn-md btn-block" type="submit" value="Send" id="send" name="send" />
+					</form>
+				</div>
+
+				<div id="writeMe" class="col-lg-4">
+					<p class="text-justify">
+						Hi! I'm Taras. I live in Lviv and I'm interested in markup and web-programming. If you have any questions, suggestions or if you are looking for web-developer, feel free to drop me a line.
+					</p>
+				</div>
+				
+			</div>
+		</div>		
+	</div> <!-- кінець блоку контакти-->
+	
+	<div id="f">
+		<div class="container">
+			<div class="row centered">
+				<a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+				<a href="https://vk.com/"><i class="fa fa-vk"></i></a>
+			</div>
+		</div>
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/truncateString.js"></script>
+
+
+</body>
+</html>
